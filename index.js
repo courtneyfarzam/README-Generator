@@ -4,31 +4,71 @@ const fs = require('fs');
 const generateMarkdown = require('./utils/generateMarkdown')
 
 // TODO: Create an array of questions for user input
-const questions = [];
-
-inquirer
-.prompt([
+const questions = [
     {
-        type: '',
-        name: '',
+        type: 'input',
+        name: 'name',
         message: ''
     },
-])
-.then((data) => {
-
-})
-.catch((error) => {
-    if (error.isTtyError){
-
-    } else {
-
+    {
+        type: 'input',
+        name: 'github',
+        message: ''
+    },
+    {
+        type: 'input',
+        name: 'email',
+        message: ''
+    },
+    {
+        type: 'input',
+        name: 'title',
+        message: ''
+    },
+    {
+        type: 'input',
+        name: 'description',
+        message: ''
+    },
+    {
+        type: 'input',
+        name: 'installation',
+        message: ''
+    },
+    {
+        type: 'input',
+        name: 'usage',
+        message: ''
+    },
+    {
+        type: 'input',
+        name: 'contributing',
+        message: ''
+    },
+    {
+        type: 'input',
+        name: 'tests',
+        message: ''
+    },
+    {
+        type: 'confirm',
+        name: 'confirmLicense',
+        message: ''
+    },
+    {
+        type: 'list',
+        name: 'license',
+        message: ''
     }
-})
+];
+
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+const writeToFile = (fileName, data) => {}
 
 // TODO: Create a function to initialize app
-function init() {}
+const init = () => {
+    return inquirer.prompt(questions)
+}
 
 // Function call to initialize app
 init();
