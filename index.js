@@ -8,62 +8,71 @@ const questions = [
     {
         type: 'input',
         name: 'name',
-        message: ''
+        message: 'Welcome to the README Generator! First, what is your name?'
     },
     {
         type: 'input',
         name: 'github',
-        message: ''
+        message: 'What is your GitHub username?'
     },
     {
         type: 'input',
         name: 'email',
-        message: ''
+        message: 'What is your email?'
     },
     {
         type: 'input',
         name: 'title',
-        message: ''
+        message: 'What is the title of your application?'
     },
     {
         type: 'input',
         name: 'description',
-        message: ''
+        message: 'Please provide a description: '
     },
     {
         type: 'input',
         name: 'installation',
-        message: ''
+        message: 'What are the instructions for installation?'
     },
     {
         type: 'input',
         name: 'usage',
-        message: ''
+        message: 'What are the instructions for usage?'
     },
     {
         type: 'input',
         name: 'contributing',
-        message: ''
+        message: 'How can others contribute to this application?'
     },
     {
         type: 'input',
         name: 'tests',
-        message: ''
+        message: 'Please describe any tests written for your application and instructions on how to run them '
     },
     {
         type: 'confirm',
         name: 'confirmLicense',
-        message: ''
+        message: 'Would you like to add a license?',
+        default: 'false'
     },
     {
         type: 'list',
         name: 'license',
-        message: ''
+        message: 'Please choose the license you would like to include.'
     }
 ];
 
 // TODO: Create a function to write README file
-const writeToFile = (fileName, data) => {}
+const writeToFile = (data) => {
+    fs.writeFile(`./readme/${data.name.split(' ').join('')}-README.md`, data, (err) => {
+        if (err){
+            return console.log('There was an error')
+        } else {
+            console.log('Please check the readme folder for your generated README.md file! Thank you!')
+        }
+    })
+}
 
 // TODO: Create a function to initialize app
 const init = () => {
@@ -72,3 +81,5 @@ const init = () => {
 
 // Function call to initialize app
 init();
+// generateMarkdown()
+// writeToFile()
