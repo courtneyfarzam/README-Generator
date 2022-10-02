@@ -1,44 +1,44 @@
 
-# ksjdhkajsdhgfkjadgsh        
-[![License](https://img.shields.io/badge/license-WTFPL-brightgreen.svg)](http://www.wtfpl.net/about/)
+# YO LETS GO        
+[![License](https://img.shields.io/badge/license-none-red.svg)]()
 
 ## Description    
 
-jlsdhfjlhadsfkjas'    
+Shinits is wild yo    
 
 ## Table of Contents (Optional)    
 
 - [Installation](#installation)
 - [Usage](#usage)    
 - [License](#license)
-- [Contributing](#Contributing)
+- [Contributing](#contributing)
 - [Tests](#tests)
 - [Questions](#questions)
 - [Credits](#credits)
 
 ## Installation    
 
-jsdghfjsdfas    
+u just do it    
 
 ## Usage
 
-jsdghfkjdgshf    
+.....do it    
 
 ## License
-
-This application is covered under the WTFPL license. Please click on the badge for more information    
+[![License](https://img.shields.io/badge/license-none-red.svg)]()
+    
 
 ## Contributing
-jsdghfjsghfkjas    
+don't    
 
 ## Tests
-jsdghfjf    
+none    
 
 ## Questions
 Have questions? Please feel free to contact me:    
-* GitHub: https://github.com/ksjdfhksjdhkasl    
-* Email: kjsdhfkjsadfhkas    
+* GitHub: https://github.com/cmash    
+* Email: cmash    
 
 ## Credits    
-kjsdhklsjdhflas 
+Courtney 
   

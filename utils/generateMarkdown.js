@@ -81,10 +81,13 @@ const renderLicenseLink = (license) => {
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
 const renderLicenseSection = (license) => {
-  return `This application is covered under the ${license} license. Please click on the badge for more information`
+  if (license === 'None') {
+    return ''
+  } else
+  return `This application is covered under ${license}. Please click on the badge for more information`
 }
 
-// TODO: Create a function to generate markdown for README
+//function to generate markdown for README
 const generateMarkdown = (data) => {
   return `
 # ${data.title}        
@@ -113,7 +116,7 @@ ${data.installation}
 ${data.usage}    
 
 ## License
-
+[![License](${renderLicenseBadge(data.licenses)})](${renderLicenseLink(data.licenses)})
 ${renderLicenseSection(data.licenses)}    
 
 ## Contributing
