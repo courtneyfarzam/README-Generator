@@ -8,52 +8,52 @@ const questions = [
     {
         type: 'input',
         name: 'name',
-        message: 'Welcome to the README Generator! First, what is your name?'
+        message: '👋 Welcome to the README Generator! First, what is your name?'
     },
     {
         type: 'input',
         name: 'github',
-        message: 'What is your GitHub username?'
+        message: '🌐 What is your GitHub username?'
     },
     {
         type: 'input',
         name: 'email',
-        message: 'What is your email?'
+        message: '📨 What is your email?'
     },
     {
         type: 'input',
         name: 'title',
-        message: 'What is the title of your application?'
+        message: '🅰️  What is the title of your application?'
     },
     {
         type: 'input',
         name: 'description',
-        message: 'Please provide a description: '
+        message: '📄 Please provide a description: '
     },
     {
         type: 'input',
         name: 'installation',
-        message: 'What are the instructions for installation?'
+        message: '💾 What are the instructions for installation?'
     },
     {
         type: 'input',
         name: 'usage',
-        message: 'What are the instructions for usage?'
+        message: '💻 What are the instructions for usage?'
     },
     {
         type: 'input',
         name: 'contributing',
-        message: 'How can others contribute to this application?'
+        message: '🤝 How can others contribute to this application?'
     },
     {
         type: 'input',
         name: 'tests',
-        message: 'Please describe any tests written for your application and instructions on how to run them '
+        message: '🧪 Please describe any tests written for your application and instructions on how to run them '
     },
     {
         type: 'list',
         name: 'licenses',
-        message: 'Please choose the license you would like to include.',
+        message: '🏷️ Please choose the license you would like to include.',
         choices: ['Apache','GNU', 'ISC', 'MIT', 'Mozilla', 'Perl', 'SIL', 'WTFPL', 'None']
     }
 ];

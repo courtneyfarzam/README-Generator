@@ -1,10 +1,10 @@
 
-# YO LETS GO        
-[![License](https://img.shields.io/badge/license-none-red.svg)]()
+# The Most Awesome README Generator        
+[![License](https://img.shields.io/badge/license-Perl-0298c3)](https://opensource.org/licenses/Artistic-2.0)
 
-## Description    
+## 📄 Description    
 
-Shinits is wild yo    
+ This generator will make your coding projects so much easier! Soend less time working on README files and more time on your coding projects! This generator will help you easily organize all of the components within your README file. Just follow the installation instructions and get started!
 
 ## Table of Contents (Optional)    
 
@@ -16,29 +16,32 @@ Shinits is wild yo
 - [Questions](#questions)
 - [Credits](#credits)
 
-## Installation    
+## 💾 Installation    
 
-u just do it    
+You must have NPM downloaded to your computer. Within the console log:        
 
-## Usage
+## 💻 Usage
 
-.....do it    
+Open your console and answer each of the prompts questions. That's it....seriously...    
 
-## License
-[![License](https://img.shields.io/badge/license-none-red.svg)]()
-    
+## 📝 License
+[![License](https://img.shields.io/badge/license-Perl-0298c3)](https://opensource.org/licenses/Artistic-2.0)
+This application is covered under Perl. Please click on the badge for more information    
 
-## Contributing
-don't    
+## 🤝 Contributing
+If you would like to contribute, please contact me through one of the links listed in "Questions"    
 
-## Tests
-none    
+## 🧪 Tests
+None    
 
-## Questions
+## 💬 Questions
 Have questions? Please feel free to contact me:    
-* GitHub: https://github.com/cmash    
-* Email: cmash    
+* GitHub: https://github.com/cmash93    
+* Email: cmash93@gmail.com    
 
-## Credits    
-Courtney 
+## 🔖 Credits    
+Courtney Ashley 
+
+## Made with ❤️ and Javascript
+Give a ⭐ if this project helped you!
   
