@@ -2,33 +2,39 @@
 // If there is no license, return an empty string
 const renderLicenseBadge = (license) => {
 
-  let licenseType = ''
+  let licenseIcon = ''
   
   switch(license) {
-    case 'MIT':
-      licenseType = 'MIT-yellow.svg'
-      break
-    case 'ISC':
-      licenseType = ''
+    case 'Apache':
+      licenseIcon = 'Apache_2.0-yellow.svg'
       break
     case 'GNU':
-      licenseType = ''
+      licenseIcon = 'GNU-blue.svg'
       break
-    case 'Apache':
-      licenseType = ''
+    case 'ISC':
+      licenseIcon = 'ISC-red.svg'
+      break
+    case 'MIT':
+      licenseIcon = 'MIT-yellow.svg'
       break
     case 'Mozilla':
-      licenseType = ''
+      licenseIcon = 'MPL_2.0-brightgreen.svg'
       break
-    case '':
-      licenseType = ''
+    case 'Perl':
+      licenseIcon = 'Perl-0298c3'
       break
-    case '':
-      licenseType = ''
+    case 'SIL':
+      licenseIcon = 'OFL_1.1-blue.svg'
+      break
+    case 'WTFPL':
+      licenseIcon = 'WTFPL-brightgreen.svg'
+      break
+    case 'None':
+      licenseIcon = 'none-red.svg'
       break
     }
   
-  let badge = `https://img.shields.io/badge/license-${licenseType}`;
+  let badge = `https://img.shields.io/badge/license-${licenseIcon}`;
   return badge
 }
 
@@ -36,19 +42,94 @@ const renderLicenseBadge = (license) => {
 // If there is no license, return an empty string
 const renderLicenseLink = (license) => {
 
+  let licenseLink = ''
+
+  switch(license) {
+    case 'Apache':
+      licenseLink = 'https://opensource.org/licenses/Apache-2.0'
+      break
+    case 'GNU':
+      licenseLink = 'https://www.gnu.org/licenses/gpl-3.0'
+      break
+    case 'ISC':
+      licenseLink = 'https://opensource.org/licenses/ISC'
+      break
+    case 'MIT':
+      licenseLink = 'https://opensource.org/licenses/MIT'
+      break
+    case 'Mozilla':
+      licenseLink = 'https://opensource.org/licenses/MPL-2.0'
+      break
+    case 'Perl':
+      licenseLink = 'https://opensource.org/licenses/Artistic-2.0'
+      break
+    case 'SIL':
+      licenseLink = 'https://opensource.org/licenses/OFL-1.1'
+      break
+    case 'WTFPL':
+      licenseLink = 'http://www.wtfpl.net/about/'
+      break
+    case 'None':
+      licenseLink = ''
+      break
+    }
+
+    let link = licenseLink;
+    return link
 }
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
 const renderLicenseSection = (license) => {
-
+  return `This application is covered under the ${license} license. Please follow [this link](${renderLicenseLink(data.licenses)}) for more information`
 }
 
 // TODO: Create a function to generate markdown for README
 const generateMarkdown = (data) => {
-  return `# ${data.title}
+  return `
+    # ${data.title}        
+    ${renderLicenseBadge(data.licenses)}
 
-`;
+    ## Description    
+
+    ${data.description}    
+
+    ## Table of Contents (Optional)    
+
+    - [Installation](#installation)
+    - [Usage](#usage)    
+    - [License](#license)
+    - [Contributing](#Contributing)
+    - [Tests](#tests)
+    - [Questions](#questions)
+    - [Credits](#credits)
+
+    ## Installation    
+
+    ${data.installation}    
+
+    ## Usage
+
+    ${data.usage}    
+
+    ## License
+
+    ${renderLicenseSection(data.licenses)}    
+
+    ## Contributing
+    ${data.contributing}    
+
+    ## Tests
+    ${data.tests}    
+
+    ## Questions
+    Have questions? Please feel free to contact me:    
+    * GitHub: https://github.com/${data.github}    
+    * Email: ${data.email}    
+    
+    ## Credits    
+    ${data.name} 
+  `;
 }
 
 module.exports = generateMarkdown;

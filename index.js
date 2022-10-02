@@ -51,15 +51,10 @@ const questions = [
         message: 'Please describe any tests written for your application and instructions on how to run them '
     },
     {
-        type: 'confirm',
-        name: 'confirmLicense',
-        message: 'Would you like to add a license?',
-        default: 'false'
-    },
-    {
         type: 'list',
-        name: 'license',
-        message: 'Please choose the license you would like to include.'
+        name: 'licenses',
+        message: 'Please choose the license you would like to include.',
+        choices: ['Apache','GNU', 'ISC', 'MIT', 'Mozilla', 'Perl', 'SIL', 'WTFPL', 'None']
     }
 ];
 
@@ -67,7 +62,7 @@ const questions = [
 const writeToFile = (data) => {
     fs.writeFile(`./readme/${data.name.split(' ').join('')}-README.md`, data, (err) => {
         if (err){
-            return console.log('There was an error')
+            return console.log('There was an error.')
         } else {
             console.log('Please check the readme folder for your generated README.md file! Thank you!')
         }
@@ -80,6 +75,13 @@ const init = () => {
 }
 
 // Function call to initialize app
-init();
-// generateMarkdown()
-// writeToFile()
+init
+.then((userInput) => {
+    return generateMarkdown(userInput)
+})
+.then((mdInfo) => {
+    return writeToFile(mdInfo)
+})
+.catch((err) => {
+    console.log(err)
+})
