@@ -81,54 +81,54 @@ const renderLicenseLink = (license) => {
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
 const renderLicenseSection = (license) => {
-  return `This application is covered under the ${license} license. Please follow [this link](${renderLicenseLink(data.licenses)}) for more information`
+  return `This application is covered under the ${license} license. Please click on the badge for more information`
 }
 
 // TODO: Create a function to generate markdown for README
 const generateMarkdown = (data) => {
   return `
-    # ${data.title}        
-    ${renderLicenseBadge(data.licenses)}
+# ${data.title}        
+[![License](${renderLicenseBadge(data.licenses)})](${renderLicenseLink(data.licenses)})
 
-    ## Description    
+## Description    
 
-    ${data.description}    
+${data.description}    
 
-    ## Table of Contents (Optional)    
+## Table of Contents (Optional)    
 
-    - [Installation](#installation)
-    - [Usage](#usage)    
-    - [License](#license)
-    - [Contributing](#Contributing)
-    - [Tests](#tests)
-    - [Questions](#questions)
-    - [Credits](#credits)
+- [Installation](#installation)
+- [Usage](#usage)    
+- [License](#license)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
+- [Credits](#credits)
 
-    ## Installation    
+## Installation    
 
-    ${data.installation}    
+${data.installation}    
 
-    ## Usage
+## Usage
 
-    ${data.usage}    
+${data.usage}    
 
-    ## License
+## License
 
-    ${renderLicenseSection(data.licenses)}    
+${renderLicenseSection(data.licenses)}    
 
-    ## Contributing
-    ${data.contributing}    
+## Contributing
+${data.contributing}    
 
-    ## Tests
-    ${data.tests}    
+## Tests
+${data.tests}    
 
-    ## Questions
-    Have questions? Please feel free to contact me:    
-    * GitHub: https://github.com/${data.github}    
-    * Email: ${data.email}    
-    
-    ## Credits    
-    ${data.name} 
+## Questions
+Have questions? Please feel free to contact me:    
+* GitHub: https://github.com/${data.github}    
+* Email: ${data.email}    
+
+## Credits    
+${data.name} 
   `;
 }
 

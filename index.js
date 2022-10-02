@@ -60,7 +60,7 @@ const questions = [
 
 // TODO: Create a function to write README file
 const writeToFile = (data) => {
-    fs.writeFile(`./readme/${data.name.split(' ').join('')}-README.md`, data, (err) => {
+    fs.writeFile('README.md', data, (err) => {
         if (err){
             return console.log('There was an error.')
         } else {
@@ -75,7 +75,7 @@ const init = () => {
 }
 
 // Function call to initialize app
-init
+init()
 .then((userInput) => {
     return generateMarkdown(userInput)
 })
