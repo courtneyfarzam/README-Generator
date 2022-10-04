@@ -13,8 +13,8 @@
 - [Questions](#questions)
 - [Credits](#credits)
 
-## Demo
-![til](https://github.com/cmash93/Work-Day-Scheduler/blob/main/video/Trimmed-Walkthrough.gif)
+## Demo    
+![](https://github.com/cmash93/Work-Day-Scheduler/blob/main/video/Trimmed-Walkthrough.gif)    
 For a video walkthrough of this README Generator (after both NPM and Inquirer are installed), please visit [here](https://www.youtube.com/watch?v=4kvHXy4BEAM)
 
 ## 💾 Installation 
