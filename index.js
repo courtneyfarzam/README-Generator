@@ -64,7 +64,7 @@ const writeToFile = (data) => {
         if (err){
             return console.log('There was an error.')
         } else {
-            console.log('Please check the readme folder for your generated README.md file! Thank you!')
+            console.log('Please check the "files" folder for your generated README.md file! Thank you!')
         }
     })
 }
