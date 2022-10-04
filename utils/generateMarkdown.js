@@ -93,11 +93,9 @@ const generateMarkdown = (data) => {
 # ${data.title}        
 [![License](${renderLicenseBadge(data.licenses)})](${renderLicenseLink(data.licenses)})
 
-## 📄 Description    
+#### ${data.description}
 
- ${data.description}
-
-## Table of Contents (Optional)    
+## 📄 Table of Contents    
 
 - [Installation](#installation)
 - [Usage](#usage)    
@@ -131,9 +129,9 @@ Have questions? Please feel free to contact me:
 * Email: ${data.email}    
 
 ## 🔖 Credits    
-${data.name} 
+Created by: ${data.name} 
 
-## Made with ❤️ and Javascript
+Made with ❤️ and Javascript    
 Give a ⭐ if this project helped you!
   `;
 }

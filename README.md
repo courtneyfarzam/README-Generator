@@ -1,12 +1,9 @@
 
-# The Most Awesome README Generator        
-[![License](https://img.shields.io/badge/license-Perl-0298c3)](https://opensource.org/licenses/Artistic-2.0)
+# The Awesome README Generator        
 
-## 📄 Description    
+### Do you ever finish writing a web or software application just to come to the realization that you STILL have to make a README? With this README generator, you can complete that quickly and easily! Spend less time on READMEs, and spend more time on coding! Visit the installation section to get started!
 
- This generator will make your coding projects so much easier! Soend less time working on README files and more time on your coding projects! This generator will help you easily organize all of the components within your README file. Just follow the installation instructions and get started!
-
-## Table of Contents (Optional)    
+## 📄 Table of Contents    
 
 - [Installation](#installation)
 - [Usage](#usage)    
@@ -17,22 +14,28 @@
 - [Credits](#credits)
 
 ## 💾 Installation    
-
-You must have NPM downloaded to your computer. Within the console log:        
+Within your console:    
+```
+npm init
+```    
+```
+npm install inquirer
+```    
+```
+node index.js
+```    
 
 ## 💻 Usage
-
-Open your console and answer each of the prompts questions. That's it....seriously...    
+From there, just answer the questions, and the information will be plugged into your README and ready to use. Please look in the 'files' folder for your new README.md file    
+    
 
 ## 📝 License
-[![License](https://img.shields.io/badge/license-Perl-0298c3)](https://opensource.org/licenses/Artistic-2.0)
-This application is covered under Perl. Please click on the badge for more information    
+[![License](https://img.shields.io/badge/license-none-red.svg)]()    
+    
 
 ## 🤝 Contributing
-If you would like to contribute, please contact me through one of the links listed in "Questions"    
-
-## 🧪 Tests
-None    
+Please feel free to email me if you would like to contribute. My contact information can be found under 'Questions'.    
+ 
 
 ## 💬 Questions
 Have questions? Please feel free to contact me:    
@@ -40,8 +43,8 @@ Have questions? Please feel free to contact me:
 * Email: cmash93@gmail.com    
 
 ## 🔖 Credits    
-Courtney Ashley 
+Created by: Courtney Ashley 
 
-## Made with ❤️ and Javascript
+Made with ❤️ and Javascript    
 Give a ⭐ if this project helped you!
   
