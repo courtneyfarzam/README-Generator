@@ -34,7 +34,7 @@ Tests
 
 ## 💬 Questions
 Have questions? Please feel free to contact me:    
-* GitHub: https://github.com/GitHub-Username    
+* GitHub: https://github.com/Github-Username    
 * Email: email@email.com    
 
 ## 🔖 Credits    

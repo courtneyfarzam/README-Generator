@@ -5,13 +5,16 @@
 
 ## 📄 Table of Contents    
 
+-[Demo](#demo)
 - [Installation](#installation)
 - [Usage](#usage)    
 - [License](#license)
 - [Contributing](#contributing)
-- [Tests](#tests)
 - [Questions](#questions)
 - [Credits](#credits)
+
+## Demo
+![](./video/README-Walkthrough.webm)
 
 ## 💾 Installation    
 Within your console:    
