@@ -1,12 +1,12 @@
 
-# Really Amazing Web Application        
+# Really Awesome Web Application        
 [![License](https://img.shields.io/badge/license-Perl-0298c3)](https://opensource.org/licenses/Artistic-2.0)
 
-#### Here is a description of this really awesome web application that I spent hours and hours and hours designing. Check it out!
+#### Here is a description of the really amazing web application that I spent hours and hours and hours designing. Hope you enjoy!
 
-## 📄 Table of Contents    
+## Table of Contents    
 
-- [Installation](#installation)
+- [Installation](#installation) 
 - [Usage](#usage)    
 - [License](#license)
 - [Contributing](#contributing)
@@ -14,30 +14,30 @@
 - [Questions](#questions)
 - [Credits](#credits)
 
-## 💾 Installation    
+## Installation    
 
-Here are some instructions: blah, blah, blah, blah    
+Here are some instructions: blah, blah, blah    
 
-## 💻 Usage
+## Usage
 
-You can use this web application to become amazing!    
+Here are more instructions: blah, blah, blah    
 
-## 📝 License
+## License
 [![License](https://img.shields.io/badge/license-Perl-0298c3)](https://opensource.org/licenses/Artistic-2.0)    
 This application is covered under Perl. Please click on the badge for more information    
 
-## 🤝 Contributing
-Everyone can contribute whatever they want!    
+## Contributing
+Contribute your little heart out!!    
 
-## 🧪 Tests
-We did all the tests, like x, y, and z.    
+## Tests
+We did all the tests :P    
 
-## 💬 Questions
+## Questions
 Have questions? Please feel free to contact me:    
 * GitHub: https://github.com/JaneDoe12345    
 * Email: email@email.com    
 
-## 🔖 Credits    
+## Credits    
 Created by: Jane Doe 
 
 Made with ❤️ and Javascript    

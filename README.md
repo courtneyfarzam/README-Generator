@@ -17,7 +17,7 @@
 ![](https://github.com/cmash93/README-Generator/blob/main/video/Trimmed-Walkthrough.gif)    
 For a video walkthrough of this README Generator (after both NPM and Inquirer are installed), please visit [here](https://www.youtube.com/watch?v=4kvHXy4BEAM)
 
-## 💾 Installation 
+## Installation 
 _*You must have both NPM and Inquirer installed!*_   
 Within your console:    
 ```
@@ -30,24 +30,24 @@ npm install inquirer
 node index.js
 ```    
 
-## 💻 Usage
+## Usage
 From there, just answer the questions, and the information will be plugged into your README and ready to use. Please look in the 'files' folder for your new README.md file    
     
 
-## 📝 License
+## License
 [![License](https://img.shields.io/badge/license-none-red.svg)]()    
     
 
-## 🤝 Contributing
+## Contributing
 Please feel free to email me if you would like to contribute. My contact information can be found under 'Questions'.    
  
 
-## 💬 Questions
+## Questions
 Have questions? Please feel free to contact me:    
 * GitHub: https://github.com/cmash93    
 * Email: cmash93@gmail.com    
 
-## 🔖 Credits    
+## Credits    
 Created by: Courtney Ashley 
 
 Made with ❤️ and Javascript    

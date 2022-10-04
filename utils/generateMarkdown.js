@@ -95,9 +95,9 @@ const generateMarkdown = (data) => {
 
 #### ${data.description}
 
-## 📄 Table of Contents    
+## Table of Contents    
 
-- [Installation](#installation)
+- [Installation](#installation) 
 - [Usage](#usage)    
 - [License](#license)
 - [Contributing](#contributing)
@@ -105,30 +105,30 @@ const generateMarkdown = (data) => {
 - [Questions](#questions)
 - [Credits](#credits)
 
-## 💾 Installation    
+## Installation    
 
 ${data.installation}    
 
-## 💻 Usage
+## Usage
 
 ${data.usage}    
 
-## 📝 License
+## License
 [![License](${renderLicenseBadge(data.licenses)})](${renderLicenseLink(data.licenses)})    
 ${renderLicenseSection(data.licenses)}    
 
-## 🤝 Contributing
+## Contributing
 ${data.contributing}    
 
-## 🧪 Tests
+## Tests
 ${data.tests}    
 
-## 💬 Questions
+## Questions
 Have questions? Please feel free to contact me:    
 * GitHub: https://github.com/${data.github}    
 * Email: ${data.email}    
 
-## 🔖 Credits    
+## Credits    
 Created by: ${data.name} 
 
 Made with ❤️ and Javascript    
