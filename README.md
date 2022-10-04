@@ -5,7 +5,7 @@
 
 ## 📄 Table of Contents    
 
--[Demo](#demo)
+- [Demo](#demo)
 - [Installation](#installation)
 - [Usage](#usage)    
 - [License](#license)
@@ -14,9 +14,11 @@
 - [Credits](#credits)
 
 ## Demo
-![](./video/README-Walkthrough.webm)
+![til](https://github.com/cmash93/Work-Day-Scheduler/blob/main/video/Trimmed-Walkthrough.gif)
+For a video walkthrough of this README Generator (after both NPM and Inquirer are installed), please visit [here](https://www.youtube.com/watch?v=4kvHXy4BEAM)
 
-## 💾 Installation    
+## 💾 Installation 
+_*You must have both NPM and Inquirer installed!*_   
 Within your console:    
 ```
 npm init
